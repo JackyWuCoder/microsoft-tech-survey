@@ -77,5 +77,7 @@ button:active {
 
 /* Fieldset Borders */
 fieldset {
-    border: none;
+    background: rgba(0, 127, 255, 0.05);
+    padding: 15px;
+    border-radius: 8px;
 }
