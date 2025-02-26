@@ -10,13 +10,18 @@ body {
 
 #survey-form {
     margin: 0 auto;
+    padding: 20px;
     width: 60vw;
     max-width: 500px;
     min-width: 300px;
     background: white;
-    padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #3b3b4f;
 }
 
 input {
