@@ -23,11 +23,16 @@
             <label id="number-label" for="number">Years of Experience with Microsoft Technologies:</label>
             <input type="number" id="number" name="experience" min="0" max="50" placeholder="Enter your experience in years" required>
 
-            <label>Dropdown </label>
-            <select id="dropdown">
-                <option></option>
-                <option></option>
+            <!-- Microsoft Certifications Dropdown -->
+            <label for="dropdown">Have you taken any Microsoft certifications?</label>
+            <select id="dropdown" name="certification">
+                <option value="none">No</option>
+                <option value="az900">AZ-900</option>
+                <option value="az104">AZ-104</option>
+                <option value="az204">AZ-204</option>
+                <option value="az400">AZ-400</option>
             </select>
+
             <fieldset>
                 <legend>Pick an option</legend>
                 <input type="radio" name="radio-group" value="value-1">
