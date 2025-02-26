@@ -41,3 +41,19 @@ input, select, textarea {
 .inline {
     width: unset;
 }
+
+/* Button */
+button {
+    margin-top: 15px;
+    padding: 10px;
+    width: 100%;
+    background: #3b3b4f;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #29293d;
+}
