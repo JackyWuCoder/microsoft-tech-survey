@@ -24,8 +24,18 @@ h1 {
     color: #3b3b4f;
 }
 
-input {
+label, legend {
+    margin-top: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    margin-top: 5px;
+    padding: 10px;
     width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .inline {
