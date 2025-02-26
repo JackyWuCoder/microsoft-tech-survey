@@ -29,6 +29,10 @@ label, legend {
     font-weight: bold;
 }
 
+label, legend, p {
+    color: #333;
+}
+
 input, select, textarea {
     margin-top: 5px;
     padding: 10px;
