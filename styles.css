@@ -33,6 +33,7 @@ input, select, textarea {
     margin-top: 5px;
     padding: 10px;
     width: 100%;
+    box-sizing: border-box;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
