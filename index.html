@@ -11,27 +11,31 @@
             <h1 id="title">Microsoft Tech & Cloud Survey Form</h1>
             <p id="description">Help us understand how developers and IT professionals use Microsoft technologies.</p>
 
-            <!-- Name Input -->
-            <label id="name-label" for="name">Full Name:</label>
-            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            <fieldset>
+                <!-- Name Input -->
+                <label id="name-label" for="name">Full Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
 
-            <!-- Email Input -->
-            <label id="email-label" for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <!-- Email Input -->
+                <label id="email-label" for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
 
-            <!-- Experience Input -->
-            <label id="number-label" for="number">Years of Experience with Microsoft Technologies:</label>
-            <input type="number" id="number" name="experience" min="0" max="50" placeholder="Enter your experience in years" required>
+                <!-- Experience Input -->
+                <label id="number-label" for="number">Years of Experience with Microsoft Technologies:</label>
+                <input type="number" id="number" name="experience" min="0" max="50" placeholder="Enter your experience in years" required>
+            </fieldset>
 
-            <!-- Microsoft Certifications Dropdown -->
-            <label for="dropdown">Have you taken any Microsoft certifications?</label>
-            <select id="dropdown" name="certification">
-                <option value="none">No</option>
-                <option value="az900">AZ-900</option>
-                <option value="az104">AZ-104</option>
-                <option value="az204">AZ-204</option>
-                <option value="az400">AZ-400</option>
-            </select>
+            <fieldset>
+                <!-- Microsoft Certifications Dropdown -->
+                <label for="dropdown">Have you taken any Microsoft certifications?</label>
+                <select id="dropdown" name="certification">
+                    <option value="none">No</option>
+                    <option value="az900">AZ-900</option>
+                    <option value="az104">AZ-104</option>
+                    <option value="az204">AZ-204</option>
+                    <option value="az400">AZ-400</option>
+                </select>
+            </fieldset>
 
             <!-- Yes/No Radio Buttons -->
             <fieldset>
